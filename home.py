@@ -4,7 +4,7 @@ import streamlit as st
 
 
 st.title("ChatGPT prompts")
-st.sidebar.success("Funktion / Modul wählen")
+st.sidebar.success("Select prompt generator")
 
 
 st.subheader("This app generates ChatGPT prompts for specific usecases")
