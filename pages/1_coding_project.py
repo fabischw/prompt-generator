@@ -60,7 +60,7 @@ class prompt_builder:
 
 
 
-with st.form("Settings",clear_on_submit=False):
+with st.form("Prompt Generator",clear_on_submit=False):
     usecase = st.selectbox("REQUIRED: Select what the project is for",options=usecase)
 
     language = st.selectbox("REQUIRED: Select the programming language",options=languages)
