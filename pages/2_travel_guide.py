@@ -6,7 +6,7 @@ import streamlit as st
 
 
 st.title("Coding project prompt")
-
+st.sidebar.success("Select prompt generator")
 
 
 
